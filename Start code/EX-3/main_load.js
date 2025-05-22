@@ -4,7 +4,7 @@ import { RaceResultsService } from "./service/RaceResultsService.js";
 const raceResultService = new RaceResultsService();
 
 // Load race results from file
-const success = raceResultService.loadFromFile("./data/raceScores.json");
+const success = raceResultService.loadFromFile("./Start code/EX-3/data/raceScores.json");
 
 if (success) {
   console.log("Race results loaded successfully.");
